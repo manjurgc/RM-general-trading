@@ -6209,7 +6209,7 @@ blockquote {
       .header-top-v-1 .logo {
         max-width: 170px;
         margin-left: -75px;
-        margin-top:25px; } }
+        margin-top:-25px; } }
   @media (min-width: 992px) {
     .header-top-v-1 {
       position: fixed;
@@ -6729,7 +6729,7 @@ blockquote {
   text-align: center; }
   @media (min-width: 992px) {
     .footer-bottom-left {
-      text-align: left; } }
+      text-align: center; } }
 
 .footer-nav ul {
   padding: 0;
