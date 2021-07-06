@@ -6209,7 +6209,7 @@ blockquote {
       .header-top-v-1 .logo {
         max-width: 170px;
         margin-left: -75px;
-        margin-top: -25px; } }
+        margin-top:0; } }
   @media (min-width: 992px) {
     .header-top-v-1 {
       position: fixed;
