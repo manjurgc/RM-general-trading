@@ -1074,7 +1074,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #828181;
+  color: #000000;
   background-color: #fff; }
 
 input,
@@ -6860,7 +6860,7 @@ blockquote {
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
-      background-color: #d9edf79e
+      background-color: #7777774d
     
     }
       @media (min-width: 992px) {
@@ -6883,7 +6883,7 @@ blockquote {
         .content-section-contact {
           padding-top: 70px;
           padding-bottom: 70px;
-          background-color: #d9edf7c7;
+          background-color: #7777773d;
         } }
 
 
@@ -7075,7 +7075,7 @@ blockquote {
       margin-top: 50px; } }
 
 .content-3 {
-  background-color: #87ceeb4d;
+  background-color: #7777773b;
   background-size: cover; }
   @media (min-width: 992px) {
     .content-3 h2 {
