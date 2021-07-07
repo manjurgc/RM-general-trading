@@ -6114,12 +6114,26 @@ img.align-center {
   border: 1px solid black; }
   .btn-outline:hover, .btn-outline.active {
     color: #fff;
-    background: gray; }
+    background: gray; 
+  }
 
 .btn-dark {
   color: #fff;
   background-color:gray;
-  border-color: #363636; }
+  border-color: #363636;
+ 
+}
+
+.btn-dark-join{
+  color:white ;
+  background-color:rgb(151, 127, 21);
+  border-color: #363636;
+  width: 300px;
+  border-radius: 25px;
+  
+}
+
+
   .btn-dark:focus,
   .btn-dark.focus {
     color: #fff;
@@ -6358,7 +6372,7 @@ blockquote {
       } }
     @media (min-width: 992px) {
       .banner-v1 .banner-caption-v1 {
-        bottom: 15%; } }
+        bottom:35%; } }
   .banner-v1 .banner-caption-text {
     max-width: 550px;
     float: right; }
@@ -8527,3 +8541,5 @@ blockquote {
   border: 2px solid black;
   border-radius: 25px;
 }
+
+
