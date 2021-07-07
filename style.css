@@ -6380,10 +6380,10 @@ blockquote {
     .banner-v1 {
       min-height: 550px; } }
   @media (min-width: 992px) {
-    .banner-v1 {
+    /* .banner-v1 {
       padding-top: 150px;
       margin-top: -100px;
-      min-height: 1100px; }
+      min-height: 1100px; } */
       .banner-v1 .banner-image {
         min-height: 624px; } }
   .banner-v1 .banner-buttons {
@@ -8505,8 +8505,8 @@ blockquote {
 
 
 .heading-rm{
-  cursor: none;
-}
+  cursor: context-menu;
+};
 
 .about-content1{
   text-align: center;
