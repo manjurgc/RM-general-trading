@@ -1074,8 +1074,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #000000;
-  background-color: #fff; }
+  color:black;
+  /* background-color:#fff;  */
+}
 
 input,
 button,
@@ -1155,10 +1156,10 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Old Standard TT", serif;
+  /* font-family: "Old Standard TT", serif; */
   font-weight: 400;
   line-height: 1.1;
-  color: #222 }
+  color:black }
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
@@ -6073,7 +6074,10 @@ p {
   font-size: 14px; }
 
 .form-control {
-  box-shadow: none; }
+  box-shadow: none;
+  border: 2px solid black;
+    border-radius: 25px;
+}
 
 img.align-center {
   display: block;
@@ -6098,20 +6102,23 @@ img.align-center {
 
 .btn {
   text-transform: uppercase;
-  font-family: "Lato", sans-serif; }
+  font-family: "Roboto", sans-serif;
+
+}
 
 .btn-outline {
-  font-size: 16px;
-  color: #4c4c4c;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
   background: transparent;
-  border: 1px solid #4c4c4c; }
+  border: 1px solid black; }
   .btn-outline:hover, .btn-outline.active {
     color: #fff;
-    background: #be0b06; }
+    background: gray; }
 
 .btn-dark {
   color: #fff;
-  background-color: #363636;
+  background-color:gray;
   border-color: #363636; }
   .btn-dark:focus,
   .btn-dark.focus {
@@ -6324,14 +6331,15 @@ blockquote {
           font-size: 100px; } }
       @media (min-width: 1200px) {
         .banner-v1 .banner-caption-v1 h1 {
-          font-size: 200px; } }
+          font-size: 200px;
+          cursor: none } }
     .banner-v1 .banner-caption-v1 h2 img {
       display: block;
       max-width: 80%;
       margin: 0 auto; }
     .banner-v1 .banner-caption-v1 p {
       font-size: 15px;
-      color: #98a9b6;
+      color: white;
       text-align: center; }
       @media (min-width: 992px) {
         .banner-v1 .banner-caption-v1 p {
@@ -6339,13 +6347,15 @@ blockquote {
     @media (min-width: 480px) {
       .banner-v1 .banner-caption-v1 {
         margin-top: -150px; } }
-    @media (min-width: 768px) {
+    @media (min-width: 768px) {        
       .banner-v1 .banner-caption-v1 {
         margin-top: 0;
         position: absolute;
         right: 0;
         bottom: 0;
-        width: 100%; } }
+        width: 100%;
+           
+      } }
     @media (min-width: 992px) {
       .banner-v1 .banner-caption-v1 {
         bottom: 15%; } }
@@ -6405,11 +6415,11 @@ blockquote {
 
 .navigation li {
   float: left;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin-right: 15px;
+  /* font-weight: 100; */
+  /* text-transform: uppercase; */
+  margin-right: 13px;
   position: relative; }
   .navigation li a {
     color: #a8a8a9;
@@ -6668,7 +6678,7 @@ blockquote {
     .widget-2 .contact-details strong {
       color: #fff; }
     .widget-2 .contact-details a {
-      color: #747474; }
+      color: #f5f5f5; }
       .widget-2 .contact-details a:hover {
         color: #fff; }
 
@@ -6869,6 +6879,8 @@ blockquote {
           padding-bottom: 70px;
           background-color:#77777752;
         } }
+
+   
 
 
 
@@ -7234,7 +7246,7 @@ blockquote {
   background-color: #eeeeee00;
   background-size: cover; }
   .content-6 .btn-outline {
-    border-radius: 0;
+    border-radius: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 5px; }
@@ -8476,3 +8488,42 @@ blockquote {
 @media (min-width: 992px) {
   .withe-logo {
     margin-top: -200px; } }
+
+
+.heading-rm{
+  cursor: none;
+}
+
+.about-content1{
+  text-align: center;
+}
+
+/* .contact-button{
+  text-align: center;
+} */
+
+.shop-column-alighment{
+  top: 350px;
+}
+
+
+.hide_file{
+  position: absolute;
+  z-index: 1000;
+  opacity: 0;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  height: 100%;
+  font-size: 24px;
+  width: 100%;
+}
+
+.file-div{
+  border:1px solid black;
+  /* width: 30%; */
+  width: 300px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
